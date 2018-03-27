@@ -1,6 +1,7 @@
 #Tower of hanoi problem with the help of Bash script
 # hanoi(number of disks, source tower, destination tower, temporary tower)
 #!/bin/bash
+
 function hanoi
 {
   if [ $1 -eq 0 ]
